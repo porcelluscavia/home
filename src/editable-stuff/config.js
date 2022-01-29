@@ -6,31 +6,31 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Sam",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Tureski",
+  message: " Passionate about machine learning, NLP and Data Science. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/porcelluscavia",
     },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/hashirshoaeb",
+    // },
+    // {
+    //   image: "fa-instagram",
+    //   url: "https://www.instagram.com/hashirshoaeb/",
+    // },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/sam-tureski-88947145/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/hashirshoaeb/",
+    // },
   ],
 };
 
@@ -51,11 +51,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/sam.png"),
   imageSize: 375,
-  message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  message: "My name is Sam Tureski. I’m a 2021 graduate of the Machine Learning M.Sc. program at the University of Tübingen, Germany, and hold a B.A. in Natural Language Processing (Computerlinguistik) from the same university. I also completed two years of coursework in Computer Science and Linguistics from Trinity College Dublin. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the fields of machine learning and data science. In my free time I love to travel, play the trumpet and hang out with my dog.",
+  resume: "https://docs.google.com/document/d/1nZDjLx0-wZhKF2MT9w3d0AlVt-Q2Kyr4b3i3n2d1rh0/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,9 +65,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "porcelluscavia", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["vectors-webtool", "speechrecognition", "audio-model", "NamedEntityRecognition"],
 };
 
 // Leadership SECTION
@@ -79,15 +78,15 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/sam.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
+    // { 
+    //   img: require("../editable-stuff/hashirshoaeb.png"), 
+    //   label: "Second slide label", 
+    //   paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    // },
   ],
   imageSize: {
     width:"615",
@@ -101,13 +100,14 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
+    { name: "Machine Learning", value: 85 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "Data Structures", value: 80 },
+    { name: "Java", value: 70 },
+    { name: "NLP", value: 90 },
+    { name: "Flask", value: 75 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "JavaScript", value: 50 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,24 +126,34 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Data Science or Machine Learning opportunities, or any roles with a focus in Natural Language Processing! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "samtureski [at] gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+    // {
+    //   role: 'Machine Learning Research Assistant, Uni Tübingen', // Here Add Company Name
+    //   companylogo: require("../editable-stuff/tuebingenlogo.png"),
+    //   date: 'Jan 21 - Sep 21; Dec 19 - Jul 20',
+    // },
+        {
+      role: 'AI Research Intern, IBM', // Here Add Company Name
+      companylogo: require("../editable-stuff/ibm_logo.png"),
+      date: 'Jul 20 – Dec 21',
     },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
+    //         {
+    //   role: 'NLP Intern, Aurora: AI Assisted Assessments', // Here Add Company Name
+    //   companylogo: require("../editable-stuff/auroralogo.png"),
+    //   date: 'Aug 19 - Sep 19',
+    // },
+    // {
+    //   role: 'Conversational English Teacher, italki', // Here Add Company Name
+    //   companylogo: require("../editable-stuff/italkilogo.png"),
+    //   date: 'Mar 13 – Jul 14',
+    // },
   ]
 }
 
@@ -151,5 +161,10 @@ const experiences = {
 // const blog = {
 //   show: false,
 // };
-
+// equire('../assets/img/dell.png'),
+//       date: 'June 2018 – Present',
+//     },
+    // {
+    //   role: 'Front-End Developer',
+    //   companylogo: require('../assets/img/boeing.png'),
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
