@@ -53,7 +53,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/sam.png"),
   imageSize: 375,
-  message: "My name is Sam Tureski. I’m a 2021 graduate of the Machine Learning M.Sc. program at the University of Tübingen, Germany, and hold a B.A. in Natural Language Processing (Computerlinguistik) from the same university. I also completed two years of coursework in Computer Science and Linguistics from Trinity College Dublin. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the fields of machine learning and data science. In my free time I love to travel, play the trumpet and hang out with my dog.",
+  message: "My name is Sam Tureski. I’m a 2022 graduate of the Machine Learning M.Sc. program at the University of Tübingen, Germany, and hold a B.A. in Natural Language Processing (Computerlinguistik) from the same university. I also completed two years of coursework in Computer Science and Linguistics from Trinity College Dublin. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the fields of machine learning and data science. In my free time I love to travel, play the trumpet and hang out with my dog.",
   resume: "https://docs.google.com/document/d/1nZDjLx0-wZhKF2MT9w3d0AlVt-Q2Kyr4b3i3n2d1rh0/edit?usp=sharing",
 };
 
@@ -67,7 +67,8 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "porcelluscavia", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["vectors-webtool", "speechrecognition", "audio-model", "NamedEntityRecognition"],
+  //specificRepos: ["CyberWallE-propaganda-detection"],
+  specificRepos: ["vectors-webtool", "audio-model", "speechrecognition", "NamedEntityRecognition"],
 };
 
 // Leadership SECTION
@@ -134,26 +135,26 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
-    // {
-    //   role: 'Machine Learning Research Assistant, Uni Tübingen', // Here Add Company Name
-    //   companylogo: require("../editable-stuff/tuebingenlogo.png"),
-    //   date: 'Jan 21 - Sep 21; Dec 19 - Jul 20',
-    // },
+    {
+      role: 'ML Research Assistant, University of Tübingen', // Here Add Company Name
+      companylogo: require("../editable-stuff/tuebingenlogo.png"),
+      date: 'Jan 21 - Sep 21, Dec 19 - Jul 20',
+    },
         {
       role: 'AI Research Intern, IBM', // Here Add Company Name
       companylogo: require("../editable-stuff/ibm_logo.png"),
-      date: 'Jul 20 – Dec 21',
+      date: 'Jul 20 – Dec 20',
     },
-    //         {
-    //   role: 'NLP Intern, Aurora: AI Assisted Assessments', // Here Add Company Name
-    //   companylogo: require("../editable-stuff/auroralogo.png"),
-    //   date: 'Aug 19 - Sep 19',
-    // },
-    // {
-    //   role: 'Conversational English Teacher, italki', // Here Add Company Name
-    //   companylogo: require("../editable-stuff/italkilogo.png"),
-    //   date: 'Mar 13 – Jul 14',
-    // },
+            {
+      role: 'NLP Intern, Aurora: AI Assisted Assessments', // Here Add Company Name
+      companylogo: require("../editable-stuff/auroralogo.png"),
+      date: 'Aug 19 - Sep 19',
+    },
+    {
+      role: 'Conversational English Teacher, italki', // Here Add Company Name
+      companylogo: require("../editable-stuff/italkilogo.png"),
+      date: 'Mar 13 – Jul 14',
+    },
   ]
 }
 
