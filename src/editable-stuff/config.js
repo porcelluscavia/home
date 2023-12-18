@@ -9,20 +9,12 @@ const mainBody = {
   firstName: "Sam",
   middleName: "",
   lastName: "Tureski",
-  message: " Passionate about machine learning, NLP and Data Science. ",
+  message: " Passionate about Machine Learning, NLP and Data Science. ",
   icons: [
     {
       image: "fa-github",
       url: "https://github.com/porcelluscavia",
     },
-    // {
-    //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/hashirshoaeb",
-    // },
-    // {
-    //   image: "fa-instagram",
-    //   url: "https://www.instagram.com/hashirshoaeb/",
-    // },
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/sam-tureski-88947145/",
@@ -53,8 +45,8 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/sam.png"),
   imageSize: 375,
-  message: "My name is Sam Tureski. I’m a 2022 graduate of the Machine Learning M.Sc. program at the University of Tübingen, Germany, and hold a B.A. in Natural Language Processing (Computerlinguistik) from the same university. I also completed two years of coursework in Computer Science and Linguistics from Trinity College Dublin. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the fields of machine learning and data science. In my free time I love to travel, play the trumpet and hang out with my dog.",
-  resume: "https://docs.google.com/document/d/1nZDjLx0-wZhKF2MT9w3d0AlVt-Q2Kyr4b3i3n2d1rh0/edit?usp=sharing",
+  message: "My name is Sam Tureski. I'm an AI Engineer who has specialized in conversational AI (including LLMs!) and Computer Vision. In my last position at Posh Technologies, I made voice and text chatbots for financial institutions. Some other great AI projects I've been part of have involved explainable audio recognition, self-driving cars, recommender systems at IBM, and many other neat topics! I’m a 2022 graduate of the Machine Learning M.Sc. program at the University of Tübingen, Germany, and hold a B.A. in Natural Language Processing (Computerlinguistik) from the same university. I also completed two years of coursework in Computer Science and Linguistics from Trinity College Dublin. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the fields of machine learning and data science. In my free time I love to travel, play the trumpet and hang out with my dog.",
+  resume: "https://docs.google.com/document/d/1lFGaX-PVT2WrmBiYZLyu7n1_fMyPs1BTQKTUB2KPjMc/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -127,7 +119,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Data Science or Machine Learning opportunities, or any roles with a focus in Natural Language Processing! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Machine Learning opportunities, or any software roles with a focus in Natural Language Processing! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "samtureski [at] gmail.com",
 };
 
@@ -135,6 +127,11 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+    {
+      role: 'AI Engineer - NLP Team', // Here Add Company Name
+      companylogo: require("../editable-stuff/chatbot.png"),
+      date: 'May 22 - Sept 23',
+    },
     {
       role: 'ML Research Assistant, University of Tübingen', // Here Add Company Name
       companylogo: require("../editable-stuff/tuebingenlogo.png"),
