@@ -133,12 +133,12 @@ const experiences = {
       date: 'May 22 - Sept 23',
     },
     {
-      role: 'ML Research Assistant, University of Tübingen', // Here Add Company Name
+      role: 'ML Research Engineer, University of Tübingen', // Here Add Company Name
       companylogo: require("../editable-stuff/tuebingenlogo.png"),
       date: 'Jan 21 - Sep 21, Dec 19 - Jul 20',
     },
         {
-      role: 'AI Research Intern, IBM', // Here Add Company Name
+      role: 'AI Research Engineer, IBM', // Here Add Company Name
       companylogo: require("../editable-stuff/ibm_logo.png"),
       date: 'Jul 20 – Dec 20',
     },
